@@ -1,0 +1,45 @@
+
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/302/766/original/silhouette-landscape-with-fog-forest-pine-trees-mountains-illustration-of-night-view-mist-black-and-white-good-for-wallpaper-background-banner-cover-poster-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  #container {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    
+  }
+  #ball {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: fixed;
+    top: 20px;
+    bottom: 250px;
+    left: 52.5%;
+    border-radius: 50%;
+  }
+  
+  #rod1, #rod2 {
+    width: 150px;
+    height: 30px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  #rod1 {
+    background-color: white;
+    top: 0px;    
+  }
+  
+  #rod2 {
+    background-color: white;
+    bottom: 0px;
+  }
